@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>QUIZ</title>
+</head>
+<body>
+    <h1>QUIZ COVID-19</h1>
+    <form id="formulaire">
+        <Div>
+            <h2>Question 1</h2>
+            <label for="number">Temperature en (degre celsuis):</label>
+            <input type="number" id="temperature" name="temperature" value="temperature" required>
+       </div>
+       <div>
+        <h2>Question 2</h2>
+            <label for="symptome">Symptome:</label>
+           <br>
+            <input type="checkbox" id="toux" name="toux" value="toux">
+            <label for="toux">toux</label>
+            <br>
+            <input type="checkbox" id="fatigue" name="fatigue" value="fatigue" >
+            <label for="fatigue">Fatigue</label>
+            <br>
+            <input type="checkbox" id="maux" name="maux" value="maux">
+            <label for="maux">Maux de tete</label>
+        </Div>
+        <div>
+          <h2>Question 3</h2>
+              <label for="">Avez-vous des diffultés respiratoires</label>
+              <select name="respiration" id="respiratoire">
+                  <option value="légère">Des difficultés légères</option>
+                  <option value="moyenne"> Des difficultés moyenne</option>
+                  <option value="grande">Des difficultés grandes</option>
+             </select>
+        </div>
+        <h2>Question 4</h2>
+        <p>Avez-vous été en contact avec une personne malade de la Covid-19 dans les dernièrs jours?</p>
+        <div>
+            <select name="malade" id="malade">
+                <option value="">Oui</option>
+                <option value="">Non</option>
+                
+            </select>
+        </div>
+        </Div>
+        <h2>Question 5</h2>
+
+        <div>
+           <label for=""> Avez-vous voyagé dans les derniers jours</label>
+            <select name="voyage" id="voyage">
+                <option value="">Oui</option>
+                <option value="">Non</option>
+                
+            </select>
+        </div>
+     
+        <div>
+        <button type="submit">Vérifier</button>
+         </div>
+      </form>
+      <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(gray, lightgray, white);
+    font-family: 'Poppins', sans-serif;
+}
+
+#formulaire {display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    margin: 8vh auto 0 auto;
+    padding: 20px;
+    background-color: rgb(147, 147, 113);
+    border-radius: 10px;
+    font-size: 12px;
+    box-shadow: 20px 10px 15px black;
+}
+
+#formulaire h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+ button {
+    padding: 5px;
+    margin-top: 10px;
+    width: auto;
+    color: black;
+    background-color:lightgray;
+    border: black;
+    border-radius: 10px;
+    
+}
+h1{text-align: center;
+    text-shadow: 20px 20px 50px rgb(241, 241, 253);
+}
